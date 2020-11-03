@@ -1,0 +1,49 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      IMC
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="display">
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>Seu Imc é:</ion-card-subtitle>
+        <ion-card-subtitle>Categoria:</ion-card-subtitle>
+
+      </ion-card-header>
+
+   
+      <ion-card-content>
+      
+      </ion-card-content>
+
+    </ion-card>
+
+  </div>
+
+  <div id="campos">
+
+    <label>Peso</label>
+    <ion-item id="campo_peso">
+      <ion-input type="text" maxlength="3" placeholder="Digite seu peso (Kilos)"></ion-input>
+    </ion-item>
+
+    <label>Altura</label>
+    <ion-item id="campo_altura">
+      <ion-input type="text" maxlength="3" placeholder="Digite sua altura(Centimetros)"></ion-input>
+    </ion-item>
+
+    <ion-button id="botao" color="primary">Calcular!</ion-button>
+  </div>
+
+</ion-content>
